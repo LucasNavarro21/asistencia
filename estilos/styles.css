@@ -1,0 +1,86 @@
+
+.ContainerPadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/445/161/non_2x/city-silhouette-background-free-vector.jpg");
+    background-size: contain;
+}
+.ContainerFormularioRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 15rem; */
+    width: 30rem;
+    /* gap: 0.7rem;  */
+    padding: 7rem;
+
+    background-color: rgba(202, 200, 200, 0.286); /* Color de fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplicar un difuminado de 10px al fondo */
+    border-radius: 10px; /* Ajusta el radio de borde según sea necesario */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+}
+.TituloRegistro{
+    color: rgb(79, 76, 76);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+
+#fecha{
+    font-size: 1.5rem;
+}
+.FormularioAsistencia{
+    margin-top: 0.5rem;
+}
+
+.inputDni{
+    border-radius: 0.2rem;
+    border: none;
+    width: 23rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.668);
+}
+
+.ContainerEnlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.entrada{
+    background-color: green;
+ 
+}
+.salida{
+    background-color: red;
+}
+
+.entrada, .salida{
+ text-decoration: none;
+ color: white; 
+ padding: 0.6rem;
+ border-radius: 0.2rem; 
+ width: 9rem;
+ font-weight: 500;
+
+}
+
+.inputStyle{
+    margin: 0 0 1rem 0;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+}
+td > a {
+padding: 0.6rem !important;
+}
+
+.marginBotones{
+    margin-bottom: 0.5rem;
+}
